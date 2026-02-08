@@ -2,7 +2,7 @@
 press_right = (keyboard_check(ord("D")) || keyboard_check(vk_right))
 press_left = (keyboard_check(ord("Q")) || keyboard_check(vk_left))
 press_jump = (keyboard_check(vk_up) || keyboard_check_pressed(vk_space))
-press_zaza = (keyboard_check(ord("E")))
+press_zaza = (keyboard_check(ord("Z")))
 
 // BASIC MOVEMENT
 if (!wall_jump_active) {
@@ -12,6 +12,7 @@ if (!wall_jump_active) {
 
 vsp = vsp + grav
 
+vision = lerp(vision, target_vision, 0.1);
 
 // ZAZA COOLDOWNS
 var outputTakingZazaCountDown = countDown(current_cooldown_taking_zaza)
@@ -32,6 +33,7 @@ else if (is_under_zaza) {
 	sprite_index = spr_player_under_zaza
 	move_speed = move_upgraded_by_zaza
 	jump_speed = jump_upgraded_by_zaza
+	target_vision = zaza_vision
 }
 else{
 	sprite_index = spr_player

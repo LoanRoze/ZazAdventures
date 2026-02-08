@@ -12,12 +12,12 @@ jump_speed = base_jump_speed
 jump_upgraded_by_zaza = base_jump_speed - 6
 
 base_wall_jump_hsp = base_move_speed 
-wall_jump_hsp = base_move_speed * 5
-wall_jump_vsp = base_jump_speed * 0.5
+wall_jump_hsp = base_move_speed * 8
+wall_jump_vsp = base_jump_speed * 0.4
 
 wall_jump_active = false	
 wall_jump_timer = 0;
-wall_jump_duration = 16; // nombre de frames de poussée
+wall_jump_duration = 20; // nombre de frames de poussée
 wall_jump_dir = 0;
 
 wall_slide_speed = 2
@@ -33,7 +33,9 @@ current_cooldown_under_zaza = 0
 cooldown_under_zaza = REFRESH_PER_SEC * 20 + cooldown_taking_zaza
 is_under_zaza = false
 
-
+vision = 1;
+target_vision = 1
+zaza_vision = 1.5
 
 function countDown(current_cooldown) {
 	if (current_cooldown > 0) {
