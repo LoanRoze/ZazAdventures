@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"zazzPassage",
+  "%Name":"obj_finish",
   "eventList":[],
   "managed":true,
-  "name":"zazzPassage",
+  "name":"obj_finish",
   "overriddenProperties":[],
   "parent":{
     "name":"solids",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite13",
-    "path":"sprites/Sprite13/Sprite13.yy",
+    "name":"spr_finish",
+    "path":"sprites/spr_finish/spr_finish.yy",
   },
   "spriteMaskId":null,
   "visible":true,

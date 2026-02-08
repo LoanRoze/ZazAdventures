@@ -1,4 +1,3 @@
-// limites réelles de l'objet dans la room
 var start_x = bbox_left;
 var start_y = bbox_top;
 var end_x   = bbox_right;
