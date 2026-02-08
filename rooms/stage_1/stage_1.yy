@@ -23,7 +23,6 @@
     {"name":"inst_76790F88_1","path":"rooms/stage_1/stage_1.yy",},
     {"name":"inst_1163DA79_1","path":"rooms/stage_1/stage_1.yy",},
     {"name":"inst_34048393_1","path":"rooms/stage_1/stage_1.yy",},
-    {"name":"inst_58B901DE1","path":"rooms/stage_1/stage_1.yy",},
     {"name":"inst_7203A71F1","path":"rooms/stage_1/stage_1.yy",},
     {"name":"inst_57196EE9_1","path":"rooms/stage_1/stage_1.yy",},
     {"name":"inst_6E397DD6_1","path":"rooms/stage_1/stage_1.yy",},
