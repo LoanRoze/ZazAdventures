@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"plateformMovibleBegin",
+  "%Name":"platformEnd",
   "eventList":[],
   "managed":true,
-  "name":"plateformMovibleBegin",
+  "name":"platformEnd",
   "overriddenProperties":[],
   "parent":{
     "name":"solids",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite10",
-    "path":"sprites/Sprite10/Sprite10.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

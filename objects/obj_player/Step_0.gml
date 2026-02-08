@@ -63,6 +63,8 @@ if (place_meeting(x, y + vsp, obj_solid)) {
 	vsp = 0
 }
 
+x += hsp
+y += vsp
 
 // --- Wall detection ---
 var on_left_wall  = place_meeting(x - 1, y, obj_solid);  // collision mur gauche
@@ -90,16 +92,22 @@ if (press_jump) {
         wall_jump_active = false;
     }
 }
-if (hsp != 0) show_debug_message(hsp)
-show_debug_message(wall_jump_active)
 
-
-
-// --- Décélération après la première frame ---
+// COLISIONS PLATEFORMES
 if (!on_ground) {
     hsp *= 0.97; // réduit progressivement hsp pour prolonger le saut
     vsp *= 0.95; // réduit légèrement vsp pour effet arc plus doux
 }
+
+if (place_meeting(x, y + 1, obj_moving_platform)) {
+    var p = instance_place(x, y + 1, obj_moving_platform);
+
+    if (p != noone) {
+        x += p.dx;
+        y += p.dy;
+    }
+}
+
 
 
 
@@ -127,6 +135,6 @@ if (wall_jump_active) {
         wall_jump_active = false;
     }
 }
-x += hsp
-y += vsp
+
+
 
