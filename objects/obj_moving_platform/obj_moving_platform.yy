@@ -1,15 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"plateformMovibleEnd",
-  "eventList":[],
+  "%Name":"obj_moving_platform",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"plateformMovibleEnd",
+  "name":"obj_moving_platform",
   "overriddenProperties":[],
   "parent":{
     "name":"solids",
     "path":"folders/Objects/solids.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_solid",
+    "path":"objects/obj_solid/obj_solid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite11",
-    "path":"sprites/Sprite11/Sprite11.yy",
+    "name":"spr_platform",
+    "path":"sprites/spr_platform/spr_platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,
