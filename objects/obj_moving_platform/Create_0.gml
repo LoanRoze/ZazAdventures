@@ -1,4 +1,4 @@
-end_pt   = instance_nearest(x, y, platformEnd);
+end_pt   = instance_nearest(x, y, obj_platformEnd);
 
 if (!instance_exists(end_pt)) {
     show_debug_message("ERREUR : bornes de plateforme manquantes");

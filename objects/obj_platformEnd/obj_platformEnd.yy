@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"finishLine",
+  "%Name":"obj_platformEnd",
   "eventList":[],
   "managed":true,
-  "name":"finishLine",
+  "name":"obj_platformEnd",
   "overriddenProperties":[],
   "parent":{
     "name":"solids",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
